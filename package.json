@@ -11,7 +11,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
     "@types/pg": "^8.11.11",
     "i": "^0.3.7",
     "npm": "^11.0.0",
@@ -23,12 +25,15 @@
     "@upstash/qstash": "^2.7.20",
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
+    "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "drizzle-kit": "^0.30.2",
     "drizzle-orm": "^0.38.4",
     "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
     "pg": "^8.13.1",
+    "sharp": "^0.33.5",
     "uuid": "^11.0.5",
     "zod": "^3.24.1"
   }
